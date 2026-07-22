@@ -1512,4 +1512,14 @@ img {
     }
 }
 
+/* Estilo para el enlace de la agencia desarrolladora en el footer */
+.dev-link {
+    color: var(--color-accent);
+    font-weight: 600;
+    transition: var(--transition-fast);
+}
+
+.dev-link:hover {
+    color: var(--color-bg-white);
+    text-decoration: underline;
 }
