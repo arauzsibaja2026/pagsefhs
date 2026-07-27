@@ -75,7 +75,7 @@
 
         <!-- Hero Section -->
         <section id="inicio" class="hero-section"
-            style="background-image: linear-gradient(135deg, rgba(10, 25, 47, 0.95) 40%, rgba(10, 25, 47, 0.6) 100%), url('images/hero_cleanroom.png');">
+            style="background-image: linear-gradient(to right, rgba(10, 25, 47, 0.1) 0%, rgba(10, 25, 47, 0.85) 50%, rgba(10, 25, 47, 1) 100%), url('images/hero_cleanroom.png'); background-position: left center;">
             <div class="container hero-container">
                 <div class="hero-content fade-in">
                     <div class="badge-nec">
@@ -160,8 +160,8 @@
         <section id="servicios" class="section-padding bg-dark text-white">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-subtitle highlight-text">Nuestra Especialidad</span>
-                    <h2>Servicios Especializados</h2>
+                    <span class="section-subtitle highlight-text">Nuestros Servicios</span>
+                    <!-- <h2>Servicios Especializados</h2> -->
                     <p class="section-desc">Ofrecemos soluciones integrales llave en mano para optimizar el rendimiento
                         energético, el control mecánico y la infraestructura operativa de su empresa.</p>
                 </div>
@@ -371,7 +371,7 @@
                     </div>
 
                     <!-- Datos de Contacto Directo y Ubicación -->
-                    <div class="contacto-info-wrapper">
+                    <!-- <div class="contacto-info-wrapper">
                         <span class="section-subtitle highlight-text">Contacto Directo</span>
                         <h2>Información Comercial</h2>
 
@@ -431,28 +431,42 @@
                                     <p>San Antonio, Escazú, San José, Costa Rica</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <!-- Descarga de catálogo de servicios -->
-                        <div class="catalog-download-box mt-30">
-                            <div class="catalog-info">
-                                <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                                    <polyline points="14 2 14 8 20 8" />
-                                    <line x1="16" y1="13" x2="8" y2="13" />
-                                    <line x1="16" y1="17" x2="8" y2="17" />
-                                </svg>
-                                <div>
-                                    <h4>Catálogo de Servicios FHS 2026</h4>
-                                    <p>Descargue nuestro brochure oficial en formato PDF.</p>
-                                </div>
+                    <!-- Descarga de catálogo de servicios -->
+                    <div class="catalog-download-box mt-30">
+                        <div class="catalog-info">
+                            <svg class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                            </svg>
+                            <div>
+                                <h4>Catálogo de Servicios FHS 2026</h4>
+                                <p>Descargue nuestro brochure oficial en formato PDF.</p>
                             </div>
-                            <a href="CatalogodeServiciosFHS-2026.pdf" download
-                                class="btn btn-accent btn-small download-catalog-btn">Descargar PDF</a>
                         </div>
+                        <a href="CatalogodeServiciosFHS-2026.pdf" download
+                            class="btn btn-accent btn-small download-catalog-btn">Descargar PDF</a>
+                    </div>
 
-                        <!-- Stylized Map Container -->
+                    <!-- Stylized Map Container -->
+                    <div class="map-container-styled mt-30">
+                        <div class="map-inner">
+                            <div class="map-marker">
+                                <div class="marker-pulse"></div>
+                                <svg viewBox="0 0 24 24" fill="currentColor" class="marker-icon">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                </svg>
+                            </div>
+                            <div class="map-label">
+                                <h5>FHS Sistemas Eléctricos</h5>
+                                <p>San Antonio, Escazú</p>
+                            </div>
+                        </div>
                         <div class="map-container-styled mt-30">
                             <div class="map-inner">
                                 <div class="map-marker">
@@ -467,33 +481,19 @@
                                     <p>San Antonio, Escazú</p>
                                 </div>
                             </div>
-                            <div class="map-container-styled mt-30">
-                                <div class="map-inner">
-                                    <div class="map-marker">
-                                        <div class="marker-pulse"></div>
-                                        <svg viewBox="0 0 24 24" fill="currentColor" class="marker-icon">
-                                            <path
-                                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                                        </svg>
-                                    </div>
-                                    <div class="map-label">
-                                        <h5>FHS Sistemas Eléctricos</h5>
-                                        <p>San Antonio, Escazú</p>
-                                    </div>
-                                </div>
-                                <a href="https://www.google.com/maps?q=9.893349129291229,-84.1263939775123"
-                                    target="_blank" rel="noopener noreferrer" class="map-link-btn">
-                                    <span>Ver en Google Maps</span>
-                                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2">
-                                        <path
-                                            d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
-                                    </svg>
-                                </a>
-                            </div>
+                            <a href="https://www.google.com/maps?q=9.893349129291229,-84.1263939775123" target="_blank"
+                                rel="noopener noreferrer" class="map-link-btn">
+                                <span>Ver en Google Maps</span>
+                                <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
     </main>
@@ -509,8 +509,8 @@
                 <p>Servicios integrales de ingeniería eléctrica, facilidades críticas y mantenimiento industrial en
                     Costa Rica con los más altos estándares normativos.</p>
                 <div class="legal-badge mt-20">
-                    <span class="legal-badge-title">Cédula Jurídica:</span>
-                    <span class="legal-badge-number">3-102-800394</span>
+                    <!-- <span class="legal-badge-title">Cédula Jurídica:</span> -->
+                    <!-- <span class="legal-badge-number">3-102-800394</span> -->
                 </div>
             </div>
 
@@ -535,7 +535,9 @@
         </div>
         <div class="footer-bottom">
             <div class="container footer-bottom-flex">
-                <p>&copy; 2026 Desarrollado por <a href="https://www.arsmtech.com/" target="_blank" rel="noopener noreferrer" class="dev-link">ARSM Technologies</a>. Todos los derechos reservados.</p>
+                <p>&copy; 2026 Desarrollado por <a href="https://www.arsmtech.com/" target="_blank"
+                        rel="noopener noreferrer" class="dev-link">ARSM Technologies</a>. Todos los derechos reservados.
+                </p>
                 <p class="compliance-tag">Garantía de cumplimiento técnico oficial NEC 2014</p>
             </div>
         </div>
