@@ -1662,3 +1662,30 @@ img {
 .btn-accent .btn-text {
     color: var(--color-primary-dark) !important;
 }
+/* Ajustes para mostrar logo y texto juntos en el carrusel */
+.client-logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Crea un espacio elegante entre el logo y el texto */
+    padding: 0 1rem;
+}
+
+.client-logo-img {
+    max-width: 40px; /* Limita el ancho para que no desborde la tarjeta */
+    max-height: 40px; /* Limita el alto */
+    object-fit: contain; /* Asegura que el logo no se deforme ni se estire */
+}
+/* ==========================================
+   Logo de cumplimiento en el Footer
+========================================== */
+.compliance-logo {
+    max-height: 120px; /* Controla la altura máxima del logo */
+    width: auto;      /* Mantiene la proporción original */
+    object-fit: contain;
+    transition: var(--transition-fast);
+}
+
+.compliance-logo:hover {
+    transform: scale(1.05); /* Pequeño efecto de zoom al pasar el mouse */
+}
