@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>En Mantenimiento | FHS Sistemas Eléctricos</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: #0a192f; /* Azul corporativo oscuro */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background-image: radial-gradient(circle at center, #172a45 0%, #0a192f 100%);
+        }
+        
+        .logo-container img {
+            max-width: 120px;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite alternate;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffcc00; /* Amarillo corporativo */
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.9; }
+            100% { transform: scale(1.05); opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <!-- Utiliza el logo que ya tienes en la carpeta -->
+        <img src="logo.png" alt="FHS Sistemas Eléctricos Logo">
+    </div>
+
+    <h1>Sitio en Mantenimiento</h1>
+    <p>Estamos trabajando en la nueva versión de nuestro sitio web para ofrecerle una mejor experiencia. Estaremos en línea muy pronto.</p>
+
+</body>
+</html>
