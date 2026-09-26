@@ -1476,3 +1476,20 @@ margin-bottom: 0;
 color: var(--color-text-muted);
 line-height: 1.5;
 }
+
+.mvv-values-list {
+list-style: disc;
+list-style-position: inside;
+padding-left: 0;
+margin-bottom: 0;
+display: flex;
+flex-direction: column;
+gap: 0.6rem;
+}
+
+.mvv-values-list li {
+font-size: 0.95rem;
+color: var(--color-text-muted);
+line-height: 1.5;
+font-weight: 500;
+}
