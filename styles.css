@@ -644,6 +644,11 @@ gap: 10px;
 display: none;
 }
 
+/* Ocultar los cuadros que no tienen imagen (solo tienen texto) */
+.client-logo-card:not(:has(img)) {
+display: none;
+}
+
 .client-logo-card:hover {
 border-color: var(--color-accent);
 background-color: var(--color-bg-white);
@@ -655,9 +660,9 @@ color: var(--color-primary);
 }
 
 .client-logo-img {
-max-width: 40px;
+max-width: 60px;
 /* Limita el ancho para que no desborde la tarjeta */
-max-height: 40px;
+max-height: 60px;
 /* Limita el alto */
 object-fit: contain;
 /* Asegura que el logo no se deforme ni se estire */
